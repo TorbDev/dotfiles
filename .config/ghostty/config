@@ -1,0 +1,15 @@
+term = xterm-256color
+
+quit-after-last-window-closed = true
+
+font-size = 16
+
+background-opacity = 0.5
+background-blur-radius = 20
+
+quick-terminal-position = top
+quick-terminal-size = 50%,50%
+keybind = global:shift+ctrl+alt+cmd+t=toggle_quick_terminal
+
+mouse-hide-while-typing = true
+
