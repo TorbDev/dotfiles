@@ -7,7 +7,7 @@ export PATH=$PATH:/root/.local/bin
 eval "$(/opt/homebrew/bin/brew shellenv)"
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=6"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg="
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Add in Oh my posh
@@ -95,4 +95,4 @@ alias ll="ls -a --header --long --no-user --no-permissions"
 # Aliases
 alias reload-zsh="source ~/.zshrc"
 alias ..='cd ..'
-alias code='codium'source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias code='codium'
