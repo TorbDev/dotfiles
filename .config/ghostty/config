@@ -13,3 +13,8 @@ keybind = global:shift+ctrl+alt+cmd+t=toggle_quick_terminal
 
 mouse-hide-while-typing = true
 
+custom-shader-animation = true
+custom-shader = "shaders/tesla_coil.glsl"
+custom-shader = "shaders/glow.glsl"
+
+macos-titlebar-style = hidden
