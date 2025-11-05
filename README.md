@@ -5,6 +5,11 @@ Meine MacOS-Dotfiles, um Einstellungen auf verschiedenen Rechnern zu synchronisi
 ## Homebrew installieren
 Homebrew ist ein package manager für MacOS. Folge den Installationsanweiseungen [der offiziellen Dokumentation](https://brew.sh/).
 
+Für eine Installation ohne Admin Rechte
+- https://sarthavader.medium.com/installing-homebrew-without-admin-privileges-ee7fa941cd7a
+Setzen des AppDirs
+- https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md#options
+
 ## Clone Dotfiles
 Im Userverzeichnis
 ```
