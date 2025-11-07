@@ -17,4 +17,3 @@ custom-shader-animation = true
 custom-shader = "shaders/tesla_coil.glsl"
 custom-shader = "shaders/glow.glsl"
 
-macos-titlebar-style = hidden

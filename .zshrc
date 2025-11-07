@@ -3,8 +3,15 @@ export LSCOLORS="exfxcxdxbxegedabagacad"
 export TERM=xterm
 export PATH=$PATH:/root/.local/bin
 
+# Load specific configurations
+HOSTNAME=$(scutil --get ComputerName)
+HOSTNAME=${HOSTNAME// /_}
+if [[ -f "$HOME/dotfiles/zsh/${HOSTNAME}.config.zsh" ]]; then
+  source "$HOME/dotfiles/zsh/${HOSTNAME}.config.zsh"
+fi
+
 # Setup Homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(brew shellenv)"
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg="
